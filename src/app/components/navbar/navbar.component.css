@@ -1,0 +1,8 @@
+.navbar{ width: 1140px; margin: 0 auto; padding: 20px 0; font-family: Inter; }
+.navbar .left-box{ float: left; }
+.navbar .left-box figure{ float: left; width: 50px; }
+.navbar .left-box figure img{ width: 100%; height: 100%; }
+.navbar .left-box h1{ float: left; font-size: 20px; font-weight: 600; }
+.navbar .right-box{ float: right; }
+.navbar .right-box ul li{ float: left; margin-left: 10px; font-weight: 500; font-size: 16px; }
+.navbar .right-box ul li a{ text-decoration: none; cursor: pointer; color: #000; }
