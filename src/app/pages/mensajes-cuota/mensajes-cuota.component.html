@@ -1,9 +1,15 @@
 <div class="container">
     <div class="botones">
         <!-- <div class="boton" (click)="obtenerLista()">Obtener lista completa</div> -->
-        <div class="boton">Obtener lista pendietes</div>
+        <div class="boton" (click)="getHoja()">Obtener lista pendietes</div>
     </div>
     <div class="resultados">
-        
+        <table>
+            <tr *ngFor="let user of usuarios">
+                <th>{{user.nombre}}</th>
+                <th>{{user.apellido}}</th>
+                <th>{{user.pago}}</th>
+            </tr>
+        </table>
     </div>
 </div>

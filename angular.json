@@ -94,7 +94,8 @@
             ],
             "scripts": []
           }
-        }
+        },
+        "proxyConfig": "src/proxy.conf.json"
       }
     }
   },
